@@ -6,7 +6,7 @@
 
 <div align="center">
 
-  <a href="https://github.com/Alexandre-git-SDV">EN</a> · <b>FR</b>
+  <a href="https://github.com/Alexandre-Gouraud">EN</a> · <b>FR</b>
 
   <!-- Titre animé (s'adapte au thème clair / sombre) -->
   <picture>
@@ -22,9 +22,9 @@
   </p>
 
   <p>
-    <img src="https://komarev.com/ghpvc/?username=Alexandre-git-SDV&label=VUES&color=ff3d2e&style=flat-square" alt="Vues du profil" />
-    <a href="https://github.com/Alexandre-git-SDV?tab=followers"><img src="https://img.shields.io/github/followers/Alexandre-git-SDV?style=flat-square&logo=github&label=FOLLOWERS&color=f2a33c&labelColor=505050" alt="Followers" /></a>
-    <a href="https://github.com/Alexandre-git-SDV?tab=stars"><img src="https://img.shields.io/github/stars/Alexandre-git-SDV?style=flat-square&logo=github&label=STARS&color=ffd9a0&labelColor=505050" alt="Stars" /></a>
+    <img src="https://komarev.com/ghpvc/?username=Alexandre-Gouraud&label=VUES&color=ff3d2e&style=flat-square" alt="Vues du profil" />
+    <a href="https://github.com/Alexandre-Gouraud?tab=followers"><img src="https://img.shields.io/github/followers/Alexandre-Gouraud?style=flat-square&logo=github&label=FOLLOWERS&color=f2a33c&labelColor=505050" alt="Followers" /></a>
+    <a href="https://github.com/Alexandre-Gouraud?tab=stars"><img src="https://img.shields.io/github/stars/Alexandre-Gouraud?style=flat-square&logo=github&label=STARS&color=ffd9a0&labelColor=505050" alt="Stars" /></a>
   </p>
 
 </div>
@@ -147,7 +147,7 @@ devise:       "Un outil utile vaut mieux qu'une démo impressionnante."
   <tbody>
     <tr>
       <td>
-        <a href="https://github.com/Alexandre-git-SDV/Ollama_chat"><b>01 · Ollama_chat</b></a>
+        <a href="https://github.com/Alexandre-Gouraud/Ollama_chat"><b>01 · Ollama_chat</b></a>
       </td>
       <td>Interface de chat pour exécuter des <b>LLM en local</b> via Ollama — conversations privées, aucune donnée qui sort de la machine.</td>
       <td>
@@ -157,7 +157,7 @@ devise:       "Un outil utile vaut mieux qu'une démo impressionnante."
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/Alexandre-git-SDV/Filtro"><b>02 · Filtro</b></a>
+        <a href="https://github.com/Alexandre-Gouraud/Filtro"><b>02 · Filtro</b></a>
       </td>
       <td><b>Application de traitement et de filtrage d'images</b> — application de filtres, prévisualisation et export.</td>
       <td>
@@ -167,7 +167,7 @@ devise:       "Un outil utile vaut mieux qu'une démo impressionnante."
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/Alexandre-git-SDV/Rag_sanofi"><b>03 · Rag_sanofi</b></a>
+        <a href="https://github.com/Alexandre-Gouraud/Rag_sanofi"><b>03 · Rag_sanofi</b></a>
       </td>
       <td><b>Pipeline RAG</b> (Retrieval-Augmented Generation) pour interroger une base documentaire métier en langage naturel.</td>
       <td>
@@ -188,7 +188,7 @@ devise:       "Un outil utile vaut mieux qu'une démo impressionnante."
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/Alexandre-git-SDV/Projet-Blog-Pattes-Douces"><b>05 · Projet-Blog-Pattes-Douces</b></a>
+        <a href="https://github.com/Alexandre-Gouraud/Projet-Blog-Pattes-Douces"><b>05 · Projet-Blog-Pattes-Douces</b></a>
       </td>
       <td><b>Plateforme de blog complète</b> autour des animaux — gestion de contenu, rendu côté serveur et interface responsive.</td>
       <td>
@@ -201,7 +201,7 @@ devise:       "Un outil utile vaut mieux qu'une démo impressionnante."
 </table>
 
 <p align="left">
-  <a href="https://github.com/Alexandre-git-SDV?tab=repositories"><img src="https://img.shields.io/badge/VOIR%20TOUS%20MES%20D%C3%89P%C3%94TS-ff3d2e?style=for-the-badge&logo=github&logoColor=white&labelColor=b91c0f" alt="Voir tous mes dépôts" /></a>
+  <a href="https://github.com/Alexandre-Gouraud?tab=repositories"><img src="https://img.shields.io/badge/VOIR%20TOUS%20MES%20D%C3%89P%C3%94TS-ff3d2e?style=for-the-badge&logo=github&logoColor=white&labelColor=b91c0f" alt="Voir tous mes dépôts" /></a>
 </p>
 
 ###
@@ -215,16 +215,16 @@ devise:       "Un outil utile vaut mieux qu'une démo impressionnante."
 <div align="center">
 
   <br />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Alexandre-git-SDV&theme=dark&background=2355B1&ring=ff3434&fire=ff3434&currStreakLabel=ff3434" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Alexandre-Gouraud&theme=dark&background=2355B1&ring=ff3434&fire=ff3434&currStreakLabel=ff3434" alt="GitHub Streak" />
   <br />
 
   <br />
 
   <!--
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Alexandre-git-SDV&bg_color=00000000&color=C9D1D9&line=FF3D2E&point=F2A33C&area=true&area_color=FF3D2E&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Alexandre-git-SDV&bg_color=00000000&color=24292F&line=B91C0F&point=D9480F&area=true&area_color=FF3D2E&hide_border=true" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Alexandre-git-SDV&bg_color=00000000&color=C9D1D9&line=FF3D2E&point=F2A33C&area=true&area_color=FF3D2E&hide_border=true" alt="Graphique d'activité" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Alexandre-Gouraud&bg_color=00000000&color=C9D1D9&line=FF3D2E&point=F2A33C&area=true&area_color=FF3D2E&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Alexandre-Gouraud&bg_color=00000000&color=24292F&line=B91C0F&point=D9480F&area=true&area_color=FF3D2E&hide_border=true" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Alexandre-Gouraud&bg_color=00000000&color=C9D1D9&line=FF3D2E&point=F2A33C&area=true&area_color=FF3D2E&hide_border=true" alt="Graphique d'activité" />
   </picture>
   -->
 
@@ -236,9 +236,9 @@ devise:       "Un outil utile vaut mieux qu'une démo impressionnante."
 
 <div data-importer="snake" align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Alexandre-git-SDV/Alexandre-git-SDV/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Alexandre-git-SDV/Alexandre-git-SDV/output/github-snake.svg" />
-    <img src="https://raw.githubusercontent.com/Alexandre-git-SDV/Alexandre-git-SDV/output/github-snake.svg" alt="Snake animation des contributions" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Alexandre-Gouraud/Alexandre-Gouraud/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Alexandre-Gouraud/Alexandre-Gouraud/output/github-snake.svg" />
+    <img src="https://raw.githubusercontent.com/Alexandre-Gouraud/Alexandre-Gouraud/output/github-snake.svg" alt="Snake animation des contributions" />
   </picture>
 </div>
 
