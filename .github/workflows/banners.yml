@@ -1,0 +1,73 @@
+name: Rotate README banners
+on:
+  schedule:
+    - cron: "0 * * * *" # every hour: new random banner pair
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "assets/**"
+      - ".github/workflows/banners.yml"
+permissions:
+  contents: write
+concurrency:
+  group: banners
+  cancel-in-progress: false
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Each theme is a pair assets/<lang>/banner-<theme>-header.gif + banner-<theme>-footer.gif,
+      # available in every language folder (en, fr). The same theme is used for all languages.
+      # Adding a theme = dropping the 4 files in assets/en/ and assets/fr/, nothing else to change.
+      - name: Pick a random banner pair
+        run: |
+          set -euo pipefail
+          langs=(en fr)
+          themes=()
+          for header in assets/en/banner-*-header.gif; do
+            theme="${header#assets/en/banner-}"
+            theme="${theme%-header.gif}"
+            complete=true
+            for lang in "${langs[@]}"; do
+              for part in header footer; do
+                [ -f "assets/${lang}/banner-${theme}-${part}.gif" ] || complete=false
+              done
+            done
+            $complete && themes+=("$theme")
+          done
+          if [ "${#themes[@]}" -eq 0 ]; then
+            echo "::error::No complete banner pair (en + fr) found in assets/"
+            exit 1
+          fi
+
+          # Avoid showing the same pair twice in a row
+          previous="$(curl -fsSL "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/banners/banner-theme.txt" || true)"
+          candidates=()
+          for t in "${themes[@]}"; do
+            [ "$t" != "$previous" ] && candidates+=("$t")
+          done
+          [ "${#candidates[@]}" -eq 0 ] && candidates=("${themes[@]}")
+
+          pick="${candidates[RANDOM % ${#candidates[@]}]}"
+          echo "Themes: ${themes[*]} | previous: ${previous:-none} | picked: $pick"
+          for lang in "${langs[@]}"; do
+            mkdir -p "dist/${lang}"
+            cp "assets/${lang}/banner-${pick}-header.gif" "dist/${lang}/banner-header.gif"
+            cp "assets/${lang}/banner-${pick}-footer.gif" "dist/${lang}/banner-footer.gif"
+          done
+          echo "$pick" > dist/banner-theme.txt
+
+      # Separate branch from snake.yml (which force-pushes "output"), so neither workflow erases the other
+      - name: Deploy to banners branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: banners
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
