@@ -1,7 +1,7 @@
 <!-- ═══════════════════════════════ HEADER ═══════════════════════════════ -->
 
 <div data-importer="border" align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:ffd9a0,35:f2a33c,70:ff3d2e,100:b91c0f&text=ALEXANDRE%20GOURAUD&fontSize=58&fontColor=ffffff&fontAlign=50&fontAlignY=34&desc=D%C3%A9veloppeur%20Full%20Stack%20%C2%B7%20Je%20construis%20des%20outils%20utilisables&descSize=18&descAlign=50&descAlignY=53&animation=fadeIn" alt="Alexandre GOURAUD — Développeur Full Stack" />
+  <img width="100%" src="https://raw.githubusercontent.com/Alexandre-Gouraud/Alexandre-Gouraud/banners/fr/banner-header.gif" alt="Alexandre GOURAUD — Développeur Full Stack, je construis des outils utilisables" />
 </div>
 
 <div align="center">
@@ -269,7 +269,7 @@ Ouvert aux <b>opportunités</b>, aux <b>collaborations open-source</b> et aux di
 </div>
 
 <div data-importer="border" align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=150&color=0:b91c0f,30:ff3d2e,65:f2a33c,100:ffd9a0&text=ON%20CONSTRUIT%20QUELQUE%20CHOSE%20%3F&fontSize=30&fontColor=ffffff&fontAlign=50&fontAlignY=70&desc=contact@alexandregouraud.fr&descSize=15&descAlign=50&descAlignY=87" alt="" />
+  <img width="100%" src="https://raw.githubusercontent.com/Alexandre-Gouraud/Alexandre-Gouraud/banners/fr/banner-footer.gif" alt="On construit quelque chose ? — alexandregouraud.fr" />
 </div>
 
 ###
